@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Трекер</title>
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon.svg" />
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon.svg" />
+    <link rel="manifest" href="manifest.json" />
+    <link
+      rel="icon"
+      href="favicon.svg"
+    />
+  </head>
+  <body>
+    <div id="app">Shadow-cljs rocks!</div>
+    <script src="/js/compiled/main.js" type="text/javascript"></script>
+    <script src="/js/service-worker.js" type="text/javascript"></script>
+    <script>
+      expense_hound_cljs.core.init()
+    </script>
+  </body>
+</html>

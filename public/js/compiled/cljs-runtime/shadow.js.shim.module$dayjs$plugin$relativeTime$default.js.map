@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$dayjs$plugin$relativeTime$default.js",
+"lineCount":3,
+"mappings":"AAAAA,IAAKC,CAAAA,OAAL,CAAa,yDAAb,CAAA;AACAC,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,wCAAf,GAA0DH,MAAOC,CAAAA,EAAGG,CAAAA,OAAV,CAAkB,+CAAlB,EAAmE,EAAnE,CAAA,CAAuE,SAAvE,CAA1D;;",
+"sources":["shadow.js.shim.module$dayjs$plugin$relativeTime$default.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$dayjs$plugin$relativeTime$default\");\nshadow.js.shim.module$dayjs$plugin$relativeTime$default = shadow.js.require(\"module$node_modules$dayjs$plugin$relativeTime\", {})[\"default\"];\n"],
+"names":["goog","provide","shadow","js","shim","module$dayjs$plugin$relativeTime$default","require"]
+}

@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$dayjs$default.js",
+"lineCount":3,
+"mappings":"AAAAA,IAAKC,CAAAA,OAAL,CAAa,qCAAb,CAAA;AACAC,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,oBAAf,GAAsCH,MAAOC,CAAAA,EAAGG,CAAAA,OAAV,CAAkB,qCAAlB,EAAyD,EAAzD,CAAA,CAA6D,SAA7D,CAAtC;;",
+"sources":["shadow.js.shim.module$dayjs$default.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$dayjs$default\");\nshadow.js.shim.module$dayjs$default = shadow.js.require(\"module$node_modules$dayjs$dayjs_min\", {})[\"default\"];\n"],
+"names":["goog","provide","shadow","js","shim","module$dayjs$default","require"]
+}
