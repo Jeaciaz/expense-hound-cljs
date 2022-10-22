@@ -11,7 +11,7 @@
 
  :builds
  {:app {:target :browser
-        :output-dir "public/js/compiled"
+        :output-dir "docs/js/compiled"
         :asset-path "/js/compiled"
 
         :modules
@@ -24,7 +24,7 @@
          ;; after live-reloading finishes call this function
          :after-load expense-hound-cljs.core/start
          ;; serve the public directory over http at port 8700
-         :http-root    "public"
+         :http-root    "docs"
          :http-port    8700
          :preloads     [devtools.preload]}}}}
         
