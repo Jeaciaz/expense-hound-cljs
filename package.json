@@ -11,6 +11,6 @@
     "dayjs": "^1.11.5",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "shadow-cljs": "^2.0.80"
+    "shadow-cljs": "^2.20.7"
   }
 }
