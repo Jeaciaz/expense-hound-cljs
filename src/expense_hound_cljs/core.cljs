@@ -154,7 +154,6 @@
                                      djs
                                      (.format "HH:MM; DD.MM.YY"))]]))]])
 
-(some #(when (= "all" (:name %)) %) [{:name "a"} {:name "b"} {:name "all"}])
 (defn app []
   (let [data (r/atom nil)
         about-to-spend (r/atom 0)
