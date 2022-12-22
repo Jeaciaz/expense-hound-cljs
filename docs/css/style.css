@@ -12,6 +12,11 @@
   align-items: end;
 }
 
+.progress-bar--total {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .progress-bar--bar {
   --border-width: 3px;
 
@@ -64,6 +69,7 @@
 }
 
 .input-section--input {
+  line-height: 1.75;
   grid-column: 1/3;
   -webkit-appearance: none;
   -moz-appearance: textfield;

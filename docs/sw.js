@@ -2,7 +2,7 @@
 // previously cached resources to be updated from the network.
 // This variable is intentionally declared and unused.
 // eslint-disable-next-line no-unused-vars
-const OFFLINE_VERSION = 1
+const OFFLINE_VERSION = 2
 const CACHE_NAME = 'pwa-assets'
 const CACHE_URL_LIST = [
   './index.html',

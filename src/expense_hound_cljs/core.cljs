@@ -73,10 +73,10 @@
                                     "--opaque-color" color
                                     "--width-before-change" (str (* 100 (/ remaining-budget base-budget)) "%")
                                     "--width-after-change" (str (* 100 (/ (- remaining-budget about-to-spend) base-budget)) "%")}}
-    (if (= 0 about-to-spend)
-      (str available)
-      [:<> [:s {:style {:color "tomato"}} available] [:span (- available about-to-spend)]])]
-   [:div remaining-budget]])
+     (if (= 0 about-to-spend)
+       (str available)
+       [:<> [:s {:style {:color "tomato"}} available] [:span (- available about-to-spend)]])]
+   [:div.progress-bar--total remaining-budget]])
 
 (defn progress-bars [categories about-to-spend]
   [:div.progress-bar--container
@@ -116,7 +116,6 @@
     (fn []
       [:div.input-section
        [:input.input-section--input {:type "number"
-                                     :ref (fn [el] (when (some? el) (.focus el)))
                                      :inputMode "numeric"
                                      :placeholder "450"
                                      :value (when (> @about-to-spend 0) @about-to-spend)
