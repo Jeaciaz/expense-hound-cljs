@@ -116,10 +116,11 @@
     (fn []
       [:div.input-section
        [:input.input-section--input {:type "number"
+                                     :ref (fn [el] (when (some? el) (.focus el)))
                                      :inputMode "numeric"
                                      :placeholder "450"
                                      :value (when (> @about-to-spend 0) @about-to-spend)
-                                     :on-change #(reset! about-to-spend (->> % .-currentTarget .-value default-to-0))}]
+                                     :on-change #(reset! about-to-spend (-> % .-currentTarget .-value default-to-0))}]
        (->> categories
             (filter #(not= (:name %) "all"))
             (map (fn [{color :color emoji :emoji name :name}]
